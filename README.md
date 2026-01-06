@@ -1,28 +1,33 @@
 # 🛍️ Superstore Sales Dashboard
 
-This project is a Power BI dashboard built to analyze sales, profit, and product performance in a fictional superstore dataset. The report offers clear insights across regions, categories, and time.
+A Power BI dashboard designed to analyze sales, profit, and product performance in a fictional superstore dataset. The report provides actionable insights across time, category, and geography.
 
 ## 📊 Key Features
-- Executive KPIs: Total Sales, Total Profit, Quantity, and Profit Margin
-- Monthly sales trends by category
-- Regional sales and profit performance
-- Category performance breakdown with drill-down
-- Year, Segment, and Region slicers for dynamic filtering
+
+* **Executive KPIs**: Total Sales, Total Profit, Quantity, and Profit Margin
+* **Sales Trends**: Monthly sales patterns by product category
+* **Regional Performance**: Sales and profit breakdown by state
+* **Product Insights**: Category performance with drill-down capability
+* **Interactive Filtering**: Year, Segment, and Region slicers
 
 ## ⚒️ Tools Used
-- Power BI
-- Power Query
-- DAX
 
-## 📁 Files
-- `Superstore_Report.pbix` – Power BI dashboard file
-- `/screenshots` – Includes visuals of all report pages
+* Power BI
+* Power Query
+* DAX
 
-## 🖼️ Pages Included
-- **Overview** – Key metrics and category insights
-- **State Insights** – Regional sales/profit with YoY growth
-- **Product Insights** – Category breakdown with drill-down
+## 🗂️ Project Structure
 
----
+* `Superstore_Report.pbix` – Power BI dashboard file
+* `Screenshots/` – Static images of each report page
+* `Data/` – Includes the original Excel dataset used in the report (fictional)
 
-This project is part of my growing portfolio as I transition into data analytics. Feel free to explore or connect via my GitHub profile.
+## 📄 Report Pages
+
+* **Overview** – High-level sales KPIs and trends
+* **State Insights** – Regional performance and YoY sales growth
+* **Product Insights** – Category and subcategory performance
+
+## ℹ️ About This Project
+
+This project is part of my portfolio as I transition into a data analytics role. It reflects my growing skills in building clear, interactive reports with a focus on storytelling through data.
