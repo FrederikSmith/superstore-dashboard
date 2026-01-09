@@ -53,7 +53,7 @@ All KPIs are defined as DAX measures to support reuse and maintainability.
 ## 🛠️ Tools Used
 - Power BI
 - DAX
-- Powerquery
+- Power Query
 
 ---
 
