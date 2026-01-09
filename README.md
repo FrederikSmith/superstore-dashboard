@@ -1,33 +1,63 @@
-# 🛍️ Superstore Sales Dashboard
+# 📊 Retail Sales Dashboard – Superstore (Power BI)
 
-A Power BI dashboard designed to analyze sales, profit, and product performance in a fictional superstore dataset. The report provides actionable insights across time, category, and geography.
+This project demonstrates a structured Power BI solution based on a clean data model and standardized KPI logic.
 
-## 📊 Key Features
+The focus is on **data modeling, reusable measures, and clear business definitions**, rather than ad hoc reporting.
 
-* **Executive KPIs**: Total Sales, Total Profit, Quantity, and Profit Margin
-* **Sales Trends**: Monthly sales patterns by product category
-* **Regional Performance**: Sales and profit breakdown by state
-* **Product Insights**: Category performance with drill-down capability
-* **Interactive Filtering**: Year, Segment, and Region slicers
+---
 
-## ⚒️ Tools Used
+## 📌 Project Overview
+- Multi-page Power BI report
+- Sales performance across regions, products, and customer segments
+- KPI-based reporting with year-over-year comparisons
 
-* Power BI
-* Power Query
-* DAX
+---
 
-## 🗂️ Project Structure
+## 🗂️ Data Model
+- Star schema with a central sales fact table
+- Supporting dimension tables (Date, Product, Customer, Geography)
+- Clear grain definition to support consistent aggregation
 
+---
+
+## 📐 KPI & Business Logic
+The report is built around standardized measures to ensure consistent definitions across all pages:
+- Sales
+- Profit
+- Margin
+- Year-over-Year growth
+
+All KPIs are defined as DAX measures to support reuse and maintainability.
+
+---
+
+## 🧮 DAX Measures (examples)
+- Total Sales
+- Total Profit
+- Profit Margin
+- Sales YoY
+- Profit YoY
+- Sales Share
+
+(Measures are reused across visuals to ensure consistent business logic.)
+
+---
+
+## ⚡ Performance Considerations
+- Measure-based calculations preferred over calculated columns
+- Lean model structure to support responsive filtering
+- Avoidance of unnecessary columns in the data model
+
+---
+
+## 🛠️ Tools Used
+- Power BI
+- DAX
+- SQL
+
+---
+
+## 📁 Files
 * `Superstore_Report.pbix` – Power BI dashboard file
 * `Screenshots/` – Static images of each report page
 * `Data/` – Includes the original Excel dataset used in the report (fictional)
-
-## 📄 Report Pages
-
-* **Overview** – High-level sales KPIs and trends
-* **State Insights** – Regional performance and YoY sales growth
-* **Product Insights** – Category and subcategory performance
-
-## ℹ️ About This Project
-
-This project is part of my portfolio as I transition into a data analytics role. It reflects my growing skills in building clear, interactive reports with a focus on storytelling through data.
