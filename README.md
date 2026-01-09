@@ -59,5 +59,5 @@ Measures are reused across visuals to ensure consistent business logic.
 
 ## 📁 Files
 * `Superstore_Report.pbix` – Power BI dashboard file
-* `Screenshots/` – Static images of each report page
+* `Screenshots/` – Static images of each report page and model view
 * `Data/` – Includes the original Excel dataset used in the report (fictional)
