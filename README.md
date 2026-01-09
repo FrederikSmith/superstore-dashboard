@@ -31,13 +31,14 @@ All KPIs are defined as DAX measures to support reuse and maintainability.
 
 ---
 
-## 🧮 DAX Measures (examples)
-- Total Sales
+## 🧮 DAX Measures
+- AVG Discount Percentage
+- Cumulative Sales
+- Profit Margin Percentage
 - Total Profit
-- Profit Margin
-- Sales YoY
-- Profit YoY
-- Sales Share
+- Total Quantity
+- Total Sales
+- YoY Sales Growth Percentage
 
 Measures are reused across visuals to ensure consistent business logic.
 
