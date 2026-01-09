@@ -39,7 +39,7 @@ All KPIs are defined as DAX measures to support reuse and maintainability.
 - Profit YoY
 - Sales Share
 
-(Measures are reused across visuals to ensure consistent business logic.)
+Measures are reused across visuals to ensure consistent business logic.
 
 ---
 
