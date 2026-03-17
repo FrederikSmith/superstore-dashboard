@@ -1,64 +1,70 @@
-# 📊 Retail Sales Dashboard – Superstore (Power BI)
+# Retail Sales Dashboard – Superstore (Power BI)
 
-This project demonstrates a structured Power BI solution based on a clean data model and standardized KPI logic.
-
-The focus is on **data modeling, reusable measures, and clear business definitions**, rather than ad hoc reporting.
+A structured Power BI solution built around a clean semantic data model and 
+standardised KPI logic. The focus is on reusable measures and consistent business 
+definitions rather than ad hoc reporting.
 
 ---
 
-## 📌 Project Overview
-- Multi-page Power BI report
-- Sales performance across regions, products, and customer segments
+## Project Overview
+
+- Multi-page Power BI report tracking sales performance across regions, products 
+and customer segments
 - KPI-based reporting with year-over-year comparisons
+- Built to demonstrate enterprise BI principles at a smaller scale
 
 ---
 
-## 🗂️ Data Model
+## Data Model
+
 - Star schema with a central sales fact table
-- Supporting dimension tables (Date, Product, Customer, Geography)
-- Clear grain definition to support consistent aggregation
+- Supporting dimension tables for Date, Product, Customer and Geography
+- Clear grain definition to support consistent aggregation across all report pages
 
 ---
 
-## 📐 KPI & Business Logic
-The report is built around standardized measures to ensure consistent definitions across all pages:
-- Sales
-- Profit
-- Margin
-- Year-over-Year growth
+## KPI & Business Logic
 
-All KPIs are defined as DAX measures to support reuse and maintainability.
+All KPIs are defined as DAX measures to ensure consistent definitions and 
+reusability across every page:
 
----
-
-## 🧮 DAX Measures
+- Total Sales
+- Total Profit
+- Profit Margin Percentage
 - AVG Discount Percentage
 - Cumulative Sales
-- Profit Margin Percentage
-- Total Profit
 - Total Quantity
-- Total Sales
 - YoY Sales Growth Percentage
 
-Measures are reused across visuals to ensure consistent business logic.
-
 ---
 
-## ⚡ Performance Considerations
+## Performance Considerations
+
 - Measure-based calculations preferred over calculated columns
 - Lean model structure to support responsive filtering
-- Avoidance of unnecessary columns in the data model
+- Unnecessary columns removed from the data model to reduce file size
 
 ---
 
-## 🛠️ Tools Used
+## Tools Used
+
 - Power BI
 - DAX
 - Power Query
 
 ---
 
-## 📁 Files
-* `Superstore_Report.pbix` – Power BI dashboard file
-* `Screenshots/` – Static images of each report page and model view
-* `Data/` – Includes the original Excel dataset used in the report (fictional)
+## Files
+
+- `Superstore_Report.pbix` Power BI dashboard file
+- `Screenshots/` Static images of each report page and data model view
+- `Data/` Original Excel dataset used in the report (fictional data)
+
+---
+
+## Related Projects
+
+For a more complete end to end project combining SQL, Python and Power BI see my 
+logistics dashboard:
+
+[Logistics Delivery Performance Dashboard](https://github.com/FrederikSmith/logistics-dashboard)
